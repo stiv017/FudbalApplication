@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fudbal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/prikazIgraca"
+        android:layout_width="175dp"
+        android:layout_height="242dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="40dp"
+        android:background="#99141414"
+        android:textColor="@android:color/white"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="94dp"
+        android:onClick="getAll"
+        android:text="Prikazi Sve Igrace"
+        />
+
+    <EditText
+        android:id="@+id/editDres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Dres"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Ime"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editPrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Prezime"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editPozicija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Pozicija"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editKlub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Klub"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="570dp"
+        android:onClick="dodaj"
+        android:text="Dodaj Igraca" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="570dp"
+        android:onClick="obrisi"
+        android:text="obrisi Igraca" />
+</RelativeLayout>
